@@ -34,7 +34,7 @@ database_fix(){
 
   for database in $databases_list
   do
-  printf "${Yellow}[RESORATION]${NC} ${database}..."
+  printf "${Yellow}[RESORATION]${NC} ${database}...\n"
 
   mysqldump ${database} > ${database}.sql 
 
