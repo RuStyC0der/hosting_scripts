@@ -38,7 +38,7 @@ database_fix(){
 
   mysqldump ${database} > ${database}.sql 
 
-  mysqadmin drop ${database} -f > /dev/null
+  mysqladmin drop ${database} -f > /dev/null
 
   # https://www.basezap.com/create-databases-and-users-command-line-whm-server/
   # add databases with the same names using cpanel API
